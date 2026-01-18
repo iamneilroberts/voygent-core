@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "tripId": "lisbon-smith-2026-04",
+    "title": "Smith Family Lisbon Spring",
+    "destination": "Lisbon, Portugal",
+    "dates": "Apr 12-18, 2026",
+    "status": "Draft itinerary with estimates",
+    "lastUpdated": "2026-01-12"
+  },
+  "travelers": {
+    "count": 3,
+    "names": ["Alex Smith", "Jamie Smith", "Taylor Smith"],
+    "ages": [42, 41, 12]
+  },
+  "dates": {
+    "start": "2026-04-12",
+    "end": "2026-04-18",
+    "duration": 6
+  },
+  "budget": {
+    "perPerson": 1800,
+    "total": 5400,
+    "notes": "Estimate includes mid-range lodging, local transit, and paid attractions. Flights not included."
+  },
+  "lodging": [
+    {
+      "name": "Boutique Alfama Hotel",
+      "location": "Alfama",
+      "nights": 6,
+      "rate": 190,
+      "total": 1140,
+      "notes": "Central, walkable, family room available."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "2026-04-12",
+      "title": "Arrival and Alfama stroll",
+      "location": "Lisbon",
+      "activities": [
+        {
+          "time": "Afternoon",
+          "name": "Check-in + Miradouro walk",
+          "description": "Short walk to scenic viewpoints in Alfama.",
+          "cost": 0
+        },
+        {
+          "time": "Evening",
+          "name": "Fado dinner (optional)",
+          "description": "Traditional Fado with set menu.",
+          "cost": 45
+        }
+      ],
+      "meals": ["Dinner in Alfama"]
+    },
+    {
+      "day": 2,
+      "date": "2026-04-13",
+      "title": "Belem highlights",
+      "location": "Lisbon",
+      "activities": [
+        {
+          "time": "Morning",
+          "name": "Belem Tower + Jeronimos exterior",
+          "description": "Iconic monuments; prioritize early for fewer crowds.",
+          "cost": 15
+        },
+        {
+          "time": "Afternoon",
+          "name": "Pasteis de Belem + river promenade",
+          "description": "Free stroll along the Tagus; snack stop.",
+          "cost": 8
+        }
+      ],
+      "meals": ["Lunch in Belem"]
+    }
+  ],
+  "links": [
+    {
+      "title": "Lisbon Transit Overview",
+      "url": "https://www.metrolisboa.pt/en/",
+      "notes": "Day passes available; recommend Viva Viagem card."
+    }
+  ]
+}

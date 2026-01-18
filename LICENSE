@@ -1,0 +1,19 @@
+Business Source License 1.1
+
+Parameters
+Licensor: Neil Roberts (Voygent)
+Licensed Work: Voygent Core (generic MCP + KV memory server)
+Additional Use Grant:
+  You may use, modify, and self-host the Licensed Work for internal use,
+  personal use, or evaluation. You may not use the Licensed Work to provide
+  a competing commercial hosted service or product offering.
+Change Date: 2028-01-01
+Change License: Apache License, Version 2.0
+
+Terms
+1. This Licensed Work is licensed under the Business Source License 1.1.
+2. The Licensed Work is provided "as is", without warranty of any kind.
+3. On the Change Date, this license automatically converts to the Change License.
+4. This license does not grant any trademark rights.
+
+For full text, see https://mariadb.com/bsl11/
