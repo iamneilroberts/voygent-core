@@ -1,5 +1,8 @@
 # Voygent Core
 
+![License](https://img.shields.io/badge/License-BSL%201.1-blue.svg)
+![MCP Server](https://img.shields.io/badge/MCP-Server-1f6feb)
+
 Voygent Core is a minimal MCP server that provides persistent JSON storage via the Cloudflare KV interface.
 It runs locally by default (Miniflare KV) and can be deployed to Cloudflare KV when you want hosted storage.
 
