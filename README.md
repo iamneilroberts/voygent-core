@@ -31,6 +31,17 @@ Optional smoke test (expects the dev server running):
 npm run demo
 ```
 
+## Isolated Linux Test (Optional)
+
+Run the setup in a clean temp HOME/XDG_CONFIG_HOME:
+```bash
+./scripts/isolated-test-linux.sh --temp-home
+```
+For a fully fresh user profile (requires sudo):
+```bash
+sudo ./scripts/isolated-test-linux.sh --create-user
+```
+
 ## Manual Setup (Local)
 
 1. Create a `.dev.vars` file with a local auth key:
