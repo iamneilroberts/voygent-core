@@ -37,6 +37,10 @@ Run the setup in a clean temp HOME/XDG_CONFIG_HOME:
 ```bash
 ./scripts/isolated-test-linux.sh --temp-home
 ```
+For Claude/ChatGPT web testing, use a remote dev URL:
+```bash
+./scripts/isolated-test-linux.sh --remote
+```
 For a fully fresh user profile (requires sudo):
 ```bash
 sudo ./scripts/isolated-test-linux.sh --create-user
@@ -91,6 +95,14 @@ Use `wrangler dev --local --persist` for local KV storage. This gives you fast, 
 Local MCP works for desktop apps (Claude Desktop / Claude Code). Claude and ChatGPT web clients cannot reach `localhost` directly. To use web clients:
 - Use `npx wrangler dev --remote` for a temporary public URL, or
 - Deploy with `npx wrangler deploy` for a stable URL.
+
+## Troubleshooting
+
+- Node 18+ and npm are required: `node -v`, `npm -v`.
+- Remote dev/deploy needs Cloudflare auth: `npx wrangler login`.
+- Replace `YOUR_KV_NAMESPACE_ID` in `wrangler.toml` before `--remote` or deploy.
+- If `claude-desktop` is not in PATH, set `CLAUDE_BIN` or launch manually with the printed `XDG_CONFIG_HOME`.
+- If port 8787 is busy, set `PORT=8790` (or any free port).
 
 ## Cloud Storage Options (Bring Your Own)
 
