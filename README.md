@@ -77,7 +77,7 @@ Use `wrangler dev --local --persist` for local KV storage. This gives you fast, 
 
 ## Claude/ChatGPT Web Notes
 
-Claude and ChatGPT web clients cannot reach `localhost` directly. To use web clients:
+Local MCP works for desktop apps (Claude Desktop / Claude Code). Claude and ChatGPT web clients cannot reach `localhost` directly. To use web clients:
 - Use `npx wrangler dev --remote` for a temporary public URL, or
 - Deploy with `npx wrangler deploy` for a stable URL.
 
